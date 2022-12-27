@@ -11,9 +11,6 @@ import {
 import GithubIcon from '../components/Icon/GithubIcon';
 // import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-// import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
-// import TwitterIcon from '../components/Icon/TwitterIcon';
-import heroImage from '../images/header-background.webp';
 import objectDetection from '../images/portfolio/objectDetection.png';
 import tinyURLImg from '../images/portfolio/tinyURL.png';
 // import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
@@ -26,6 +23,9 @@ import tinyURLImg from '../images/portfolio/tinyURL.png';
 // import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 // import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
+// import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
+// import TwitterIcon from '../components/Icon/TwitterIcon';
+import heroImage from '../images/sea.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,
