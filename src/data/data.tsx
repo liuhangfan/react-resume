@@ -14,8 +14,8 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 // import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 // import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
-// import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-// import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
+import tinyURLImg from '../images/portfolio/tinyURL.png';
+import objectDetection from '../images/portfolio/objectDetection.png';
 // import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 // import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 // import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
@@ -44,8 +44,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'Hangfan Liu - Resume',
+  description: "Hangfan Liu - Resume",
 };
 
 /**
@@ -100,7 +100,7 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `I'm interested in Backend, Java, Golang, database, AI, and distributed stuff. 
+  description: `I'm interested in Backend, Java, Golang, database, AI, Frontend, and distributed stuff. 
   For the rest of the time, I enjoy traveling and photography.`,
   aboutItems: [
     {label: 'Location', text: 'Los Angeles, CA, USA', Icon: MapIcon},
@@ -174,18 +174,18 @@ export const skills: SkillGroup[] = [
  * Portfolio section
  */
 export const portfolioItems: PortfolioItem[] = [
-  // {
-  //   title: 'Project title 1',
-  //   description: 'Give a short description of your project here.',
-  //   url: 'https://github.com/liuhangfan',
-  //   image: porfolioImage1,
-  // },
-  // {
-  //   title: 'Project title 2',
-  //   description: 'Give a short description of your project here.',
-  //   url: 'https://github.com/liuhangfan',
-  //   image: porfolioImage2,
-  // },
+  {
+    title: 'Tiny URL',
+    description: 'A full stack tiny url service.',
+    url: 'https://www.21tiny.com',
+    image: tinyURLImg,
+  },
+  {
+    title: 'Computer Vision',
+    description: 'object detection in traffic',
+    url: 'https://github.com/liuhangfan/object-detection-in-traffic',
+    image: objectDetection,
+  },
   // {
   //   title: 'Project title 3',
   //   description: 'Give a short description of your project here.',
@@ -337,14 +337,9 @@ export const contact: ContactSection = {
       text: 'Los Angeles, CA, USA',
       href: 'https://www.google.com/maps/place/Los+Angeles,+CA/@34.0201613,-118.6919224,10z',
     },
-    // {
-    //   type: ContactType.Instagram,
-    //   text: '@tbakerx',
-    //   href: 'https://www.instagram.com/tbakerx/',
-    // },
     {
       type: ContactType.Github,
-      text: 'liuhangfa',
+      text: 'liuhangfan',
       href: 'https://github.com/liuhangfan',
     },
   ],
