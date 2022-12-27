@@ -14,8 +14,8 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 // import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 // import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
-import tinyURLImg from '../images/portfolio/tinyURL.png';
 import objectDetection from '../images/portfolio/objectDetection.png';
+import tinyURLImg from '../images/portfolio/tinyURL.png';
 // import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 // import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 // import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
@@ -182,7 +182,7 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     title: 'Computer Vision',
-    description: 'object detection in traffic',
+    description: 'Object Detection in Traffic',
     url: 'https://github.com/liuhangfan/object-detection-in-traffic',
     image: objectDetection,
   },
