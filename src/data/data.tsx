@@ -137,7 +137,7 @@ export const skills: SkillGroup[] = [
     name: 'Programming Languages',
     skills: [
       {
-        name: 'Golang, Java, Python, C#, Java Script',
+        name: 'Golang, Java, Python, C#, Java Script, HTML, CSS, Node.js, React.js',
         level: 9,
       },
       // {
@@ -154,7 +154,7 @@ export const skills: SkillGroup[] = [
     name: 'Technologies',
     skills: [
       {
-        name: 'Kafka, Redis, MySQL, HBase, MongoDB, crawler, Spring boot, gRPC, ProtoBuf, ZooKeeper',
+        name: 'Kafka, Redis, MySQL, HBase, MongoDB, Crawler, Spring boot, gRPC, ProtoBuf, ZooKeeper',
         level: 8,
       },
     ],
