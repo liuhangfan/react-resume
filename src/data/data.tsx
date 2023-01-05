@@ -14,7 +14,6 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import fitnessImg from '../images/portfolio/fitnessApp.png';
 import objectDetection from '../images/portfolio/objectDetection.png';
 import tinyURLImg from '../images/portfolio/tinyURL.png';
-import fitnessImg from '../images/portfolio/fitnessApp.png';
 // import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 // import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 // import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
