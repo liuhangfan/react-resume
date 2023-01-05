@@ -13,6 +13,7 @@ import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import objectDetection from '../images/portfolio/objectDetection.png';
 import tinyURLImg from '../images/portfolio/tinyURL.png';
+import fitnessImg from '../images/portfolio/fitnessApp.png';
 // import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 // import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 // import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
@@ -181,17 +182,17 @@ export const portfolioItems: PortfolioItem[] = [
     image: tinyURLImg,
   },
   {
+    title: 'Fitness App',
+    description: 'fitness tutorial website',
+    url: 'https://main.d30kuwgs7lhjlv.amplifyapp.com/',
+    image: fitnessImg,
+  },
+  {
     title: 'Computer Vision',
     description: 'Object Detection in Traffic',
     url: 'https://github.com/liuhangfan/object-detection-in-traffic',
     image: objectDetection,
   },
-  // {
-  //   title: 'Project title 3',
-  //   description: 'Give a short description of your project here.',
-  //   url: 'https://github.com/liuhangfan',
-  //   image: porfolioImage3,
-  // },
   // {
   //   title: 'Project title 4',
   //   description: 'Give a short description of your project here.',
