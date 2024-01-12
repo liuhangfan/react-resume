@@ -74,7 +74,7 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I am a <strong className="text-stone-100">software engineer</strong>, Ex-Shopee Engineer, Ex-DIDI Engineer.
+        I am a <strong className="text-stone-100">software engineer</strong> at Sony PlayStation, Ex-Shopee Engineer, Ex-DIDI Engineer.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
       Currently, I am a Master of <strong className="text-stone-100">Computer Science</strong> student in California.
@@ -109,7 +109,7 @@ export const aboutData: About = {
     {label: 'Nationality', text: 'Chinese', Icon: FlagIcon},
     {label: 'Interests', text: 'Traveling, Photography', Icon: SparklesIcon},
     {label: 'Study', text: 'Loyola Marymount University', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Shopee Pte. Ltd.', Icon: OfficeBuildingIcon},
+    {label: 'Employment', text: 'Sony PlayStation.', Icon: OfficeBuildingIcon},
   ],
 };
 
@@ -262,6 +262,16 @@ export const education: TimelineItem[] = [
 ];
 
 export const experience: TimelineItem[] = [
+  {
+    date: 'May 2023 - Present',
+    location: 'Sony PlayStation',
+    title: 'Software Engineer Intern',
+    content: (
+      <p>
+          Contributed to the development of the payment gateway framework and implementation of payment gateways with multiple vendors like Chase and Venmo.
+      </p>
+    ),
+  },
   {
     date: 'Augest 2021 - Augest 2022',
     location: 'Shopee',
